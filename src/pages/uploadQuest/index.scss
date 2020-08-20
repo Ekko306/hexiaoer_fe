@@ -1,2 +1,57 @@
 @import "~taro-ui/dist/style/components/button.scss";
 @import "~taro-ui/dist/style/components/loading.scss";
+@import "~taro-ui/dist/style/components/textarea.scss";
+@import "~taro-ui/dist/style/components/float-layout.scss";
+
+.uploadImg{
+  width: 600rpx;
+  height: 300rpx;
+  margin-top: 65rpx;
+  margin-left: 83rpx;
+}
+
+.textarea{
+  width: 600rpx;
+  margin-top: 124rpx;
+  margin-left: 83rpx;
+}
+
+.subButton{
+  margin-top: 100rpx;
+  width: 300rpx;
+}
+
+.at-float-layout__container {
+  bottom: 0;
+  width: 100%;
+  min-height: 372rpx;
+  max-height: 950rpx;
+  background-color: #fff;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  -webkit-transition: -webkit-transform 300ms cubic-bezier(0.36, 0.66, 0.04, 1);
+  transition: -webkit-transform 300ms cubic-bezier(0.36, 0.66, 0.04, 1);
+  -o-transition: transform 300ms cubic-bezier(0.36, 0.66, 0.04, 1);
+  transition: transform 300ms cubic-bezier(0.36, 0.66, 0.04, 1);
+  transition: transform 300ms cubic-bezier(0.36, 0.66, 0.04, 1), -webkit-transform 300ms cubic-bezier(0.36, 0.66, 0.04, 1);
+}
+
+.at-float-layout .layout-body {
+  font-size: 28rpx;
+  padding: 18rpx;
+  max-height: 828rpx;
+  min-height: 236rpx;
+}
+
+.at-float-layout .layout-body__content {
+  max-height: 798rpx;
+  min-height: 204rpx;
+}
+
+.chooseImage{
+  margin-top: 40rpx;
+}
+
+.photoImage{
+  margin-top: 30rpx;
+}

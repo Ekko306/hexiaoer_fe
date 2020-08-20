@@ -23,10 +23,7 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Text>Hello world123!</Text>
-        <AtButton>按钮文案</AtButton>
-        <AtButton type='primary'>按钮文案</AtButton>
-        <AtButton type='secondary'>按钮文案</AtButton>
+        <Text>河湖圈子</Text>
       </View>
     )
   }
